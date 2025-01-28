@@ -6,7 +6,7 @@ from datetime import datetime
 captured_packets = []
 
 # Define an absolute directory to save the pcap file (using the user's "Documents" folder as an example)
-save_directory = r"C:\Users\Lenovo\Desktop\Folders\My_Basic_To_Advanced_Python_Projects\captured_network_traffic"
+save_directory = " " #Kindly include a directory or folder you've already created on your computer. Hint: You can use absolute path
 
 def packet_callback(packet):
     """
