@@ -2,9 +2,9 @@ import subprocess
 import os
 
 # Define the path to store known profiles
-KNOWN_PROFILES_FILE = os.path.abspath('wifi_profiles.txt')
+KNOWN_PROFILES_FILE = os.path.abspath('') #Include the name of the file you want to store the saved passwords into
 print(f"Known profiles file: {KNOWN_PROFILES_FILE}")
-KNOWN_PROFILES_FILE = r'C:\Users\Lenovo\Desktop\Folders\My_Basic_To_Advanced_Python_Projects\wifi_profiles.txt'
+KNOWN_PROFILES_FILE = '' #Include an already created file or create one if necesssary to store your saved wi-fi password's 
 
 
 # Function to get existing profiles
