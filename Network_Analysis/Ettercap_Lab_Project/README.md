@@ -22,8 +22,8 @@ To simulate and document how login credentials can be intercepted from an unencr
 
 | Component         | Configuration               |
 |------------------|-----------------------------|
-| Attacker Machine | Kali Linux on VirtualBox     |
-| Victim Machine   | Ubuntu Linux on VirtualBox   |
+| Attacker Machine | Kali Linux on VM Ware    |
+| Victim Machine   | Ubuntu Linux on VM Ware   |
 | Network Type     | Host-Only Adapter            |
 | Communication    | HTTP (Unsecured Port 80)     |
 
